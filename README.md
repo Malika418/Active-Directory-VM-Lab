@@ -1,3 +1,4 @@
+Check out my video for Configuring the Active Directory: https://www.loom.com/share/3a9f351c9c6047dd8fb8119c2ef6366e
 # Active-Directory-VM-Lab
 Configuring Active Directory using EC2 on AWS
 # Hands-On Lab: Active Directory Setup and Configuration on Windows Server
