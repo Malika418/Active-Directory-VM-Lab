@@ -28,12 +28,15 @@ This lab demonstrates the setup and configuration of **Active Directory Domain S
 
 The Server Manager dashboard is used to verify server health and begin configuration.
 
-![Server Manager Dashboard](Screenshot%202026-01-11%20at%204.37.48 PM.png)
+![Server Manager Dashboard] 
 
 **Key Observations:**
 - Local server is online and manageable
 - AD DS, DNS, and File Services are visible
 - Server is ready for role configuration
+<img width="1470" height="956" alt="Screenshot 2026-01-11 at 4 37 48 PM" src="https://github.com/user-attachments/assets/9c788712-f876-475d-854b-1875291acbef" />
+
+- 
 
 ---
 
@@ -41,7 +44,7 @@ The Server Manager dashboard is used to verify server health and begin configura
 
 Using **Add Roles and Features Wizard**, Active Directory Domain Services is selected and installed.
 
-![Add Roles and Features – Server Roles](Screenshot%202026-01-11%20at%204.38.05 PM.png)
+![Add Roles and Features – Server Roles] 
 
 **Installed Roles:**
 - Active Directory Domain Services (AD DS)
@@ -51,18 +54,23 @@ Using **Add Roles and Features Wizard**, Active Directory Domain Services is sel
 **Outcome:**  
 The server is promoted to a **Domain Controller** and configured to host directory services.
 
+<img width="1470" height="956" alt="Screenshot 2026-01-11 at 4 38 05 PM" src="https://github.com/user-attachments/assets/11f5bdd7-6096-4525-a32f-9d4c449f9955" />
+
+
 ---
 
 ## Step 3: Verify Domain and Directory Services
 
 After installation, **Active Directory Users and Computers (ADUC)** is launched to confirm domain creation.
 
-![Active Directory Users and Computers](Screenshot%202026-01-11%20at%204.41.42 PM.png)
+![Active Directory Users and Computers]
 
 **Verified Items:**
 - Domain: `skool.local`
 - Default containers and organizational units
 - Directory services are functioning correctly
+<img width="1470" height="956" alt="Screenshot 2026-01-11 at 4 41 42 PM" src="https://github.com/user-attachments/assets/5ab0800f-bb45-47ed-a4a6-b6f509bb55fa" />
+
 
 ---
 
@@ -70,7 +78,7 @@ After installation, **Active Directory Users and Computers (ADUC)** is launched 
 
 A security group is created to demonstrate **group-based access control**.
 
-![Create New Active Directory Group](Screenshot%202026-01-11%20at%204.42.46 PM.png)
+![Create New Active Directory Group]
 
 **Group Configuration:**
 - **Group Name:** `SkoolGroup`
@@ -79,6 +87,9 @@ A security group is created to demonstrate **group-based access control**.
 
 **Purpose:**  
 This group can be used to assign permissions, enforce policies, and manage access to resources.
+<img width="1470" height="956" alt="Screenshot 2026-01-11 at 4 42 46 PM" src="https://github.com/user-attachments/assets/87751ad5-7fea-4fcf-80b0-8be801162ec1" />
+
+
 
 ---
 
